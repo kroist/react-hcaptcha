@@ -160,7 +160,8 @@ class HCaptcha extends React.Component {
         scriptLocation,
         scriptSource,
         secureApi,
-        cleanup
+        cleanup,
+        crossOrigin: "anonymous"
       };
 
       hCaptchaLoader(mountParams)
